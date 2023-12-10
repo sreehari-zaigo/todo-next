@@ -2,26 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* .datepicker-div .Kq {
+    display: none;
+} */
+
+.datepicker-div .Kq svg{
+    display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.datepicker-div .Ez:after {
+    left: -15px;
+    /* background: linear-gradient(to right, transparent 0, black 128px, black calc(100% - 128px), transparent 100%); */
+    background: linear-gradient(to right, #0f172a, #0f172a00);
+}
+.datepicker-div .WP:after {
+    right: -15px;
+    /* background: linear-gradient(to right, transparent 0, black 128px, black calc(100% - 128px), transparent 100%); */
+    background: linear-gradient(to left, #0f172a, #0f172a00);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.datepicker-div .jb {
+    color: #fff;
+}
+
+.datepicker-div ._3n {
+    background-color: rgb(51 65 85/1);
+}
+
+.datepicker-div ._1g {
+    color: tomato;
+}
+
+.datepicker-div ._2E .Lx {
+    color: #fff;
+}
+
+.datepicker-div .Lx {
+    color: #fff;
+}
+
+.datepicker-div ._2E ._1g {
+    color: tomato;
+}
+.datepicker-div .FC {
+    background-color:  rgb(79 70 229/1);;
+    color: #fff;
+}
+.datepicker-div .FC ._1g{
+    color: #fff;
 }
